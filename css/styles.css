@@ -16,3 +16,39 @@ body {
 .body-content img {
    width: 16%;
 }
+
+.btn {
+  padding: 8px 50px;
+  margin-top: 15px;
+  background-color: gold;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  display: inline-block;
+  cursor: pointer;
+  animation-delay: 3s;
+  transition-duration: 3s;
+  animation-name: button;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes button {
+   0% {background-color: gold;}
+   25% {background-color: green;}
+   50% {background-color: red;}
+   100% {background-color: blue;}
+}
+
+
+
+.btn:hover {
+  transform: scale(0.70);
+}
+
+.btn span:after {
+   content: '\00bb';
+   position: absolute;
+}

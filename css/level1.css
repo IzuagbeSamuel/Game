@@ -1,5 +1,11 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .help {
@@ -19,5 +25,55 @@ body {
 
 .help h1 {
   font-size: 20px;
+  color: white;
+}
+
+.story {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.input {
+  display: inline-block;
+  text-align: center;
+}
+
+.input input[type="text"] {
+  padding: 20px;
+}
+
+.input label {
+  font-size: 30px;
+}
+.btn1 {
+  padding: 8px 30px;
+  margin-top: 15px;
+  background-color: gold;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  font-size: 18px;
+  display: inline-block;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.congrats {
+  text-align: center;
+  padding-top: 20px;
+  margin: 20px;
+  background-color: gold;
+  border-radius: 30px;
+  height: 200px;
+  width: 100%;
+  display: none;
+}
+
+.congrats h1 {
+  color: white;
+}
+
+.congrats p {
   color: white;
 }

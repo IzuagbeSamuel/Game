@@ -33,3 +33,7 @@ window.onload = function () {
         display = document.querySelector('#time');
     startTimer(fiveMinutes, display);
 };
+
+$(document).ready(function(event) {
+  $("#answer").submit().val() 
+})

@@ -1,3 +1,6 @@
+
+
+
 function startTimer(duration, display) {
   var start = Date.now(),
       diff,
@@ -29,11 +32,9 @@ function startTimer(duration, display) {
 }
 
 window.onload = function () {
-    var fiveMinutes = 60 * 10,
+    var fiveMinutes = 60 * 5,
         display = document.querySelector('#time');
     startTimer(fiveMinutes, display);
 };
 
-$(document).ready(function(event) {
-  $("#answer").submit().val() 
-})
+  
